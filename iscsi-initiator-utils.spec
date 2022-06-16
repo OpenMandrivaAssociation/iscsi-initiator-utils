@@ -1,5 +1,5 @@
 %global optflags %{optflags} -Wno-error=unused-command-line-argument
-%global commit0			2a8f9d81d0d6b5094c3fe9c686e2afb2ec27058a
+%global commit0			20d0aa96f2170339b1967f4be81e9c5042bbce03
 %global shortcommit0		%(c=%{commit0}; echo ${c:0:7})
 %global _disable_ld_no_undefined 1
 
@@ -8,7 +8,7 @@
 
 Summary: iSCSI daemon and utility programs
 Name: iscsi-initiator-utils
-Version: 2.1.4
+Version: 2.1.5
 Release: 1
 License: GPLv2+
 URL: https://github.com/open-iscsi/open-iscsi
