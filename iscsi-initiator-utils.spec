@@ -9,7 +9,7 @@
 Summary: iSCSI daemon and utility programs
 Name: iscsi-initiator-utils
 Version: 2.1.5
-Release: 1
+Release: 2
 License: GPLv2+
 URL: https://github.com/open-iscsi/open-iscsi
 Source0: https://github.com/open-iscsi/open-iscsi/archive/%{commit0}.tar.gz#/open-iscsi-%{shortcommit0}.tar.gz
