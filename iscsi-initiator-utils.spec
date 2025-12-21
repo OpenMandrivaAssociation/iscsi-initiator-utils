@@ -46,6 +46,8 @@ Patch0024: https://src.fedoraproject.org/rpms/iscsi-initiator-utils/raw/rawhide/
 
 Patch1000: open-iscsi-compile.patch
 
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
 BuildRequires: flex bison doxygen kmod-devel systemd-units
 BuildRequires: autoconf automake libtool
 BuildRequires: pkgconfig(mount)
